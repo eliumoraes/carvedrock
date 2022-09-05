@@ -49,7 +49,7 @@ namespace CarvedRock.Api
                     Description = "The API for the best outdoor recreational gear on the planet! Yabadabadoooo!"});
             });
         }
-
+        // Trying again!
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {            
             app.UseMiddleware<CustomExceptionHandlingMiddleware>();
